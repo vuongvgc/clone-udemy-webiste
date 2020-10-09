@@ -1,0 +1,30 @@
+header {
+    // declaration styleText for all of header
+    .navbar {
+        @include styleText($fs-1, $fw-normal, $color-black-light);
+        .nav-link {
+          @include styleText($fs-1, $fw-normal, $color-black-light);
+        }
+    } 
+    
+}
+.header__left {
+    display: flex;
+    // flex-grow: Tang kich thuoc con. khi cha con cho trong
+    .navbar-brand {
+        img {
+            width: 110px;
+        }
+    }
+    .header__categories {
+        display: block;
+        margin-right: 1rem;
+        align-self: center;
+    }
+    .header__form {
+        flex-grow: 1;
+    }
+}
+.header__right {
+
+}

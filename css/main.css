@@ -3,4 +3,73 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: #29303b;
+}
+
+.udemy-btn-white {
+  font-size: 15px;
+  font-weight: 700;
+  color: #686f7a;
+  background-color: #fff;
+  border: 1px solid #686f7a;
+  border-radius: 2px;
+  padding: 11px 12px;
+}
+
+.udemy-btn-white:hover {
+  background-color: #fff;
+  border-color: #29303b;
+  color: #29303b;
+}
+
+.udemy-btn-orange {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #ec5252;
+  border: 1px solid #ec5252;
+  border-radius: 2px;
+  padding: 11px 12px;
+}
+
+.udemy-btn-orange:hover {
+  background-color: #992337;
+  border-color: #992337;
+  color: #fff;
+}
+
+header .navbar {
+  font-size: 13px;
+  font-weight: normal;
+  color: #505763;
+}
+
+header .navbar .nav-link {
+  font-size: 13px;
+  font-weight: normal;
+  color: #505763;
+}
+
+.header__left {
+  display: flex;
+}
+
+.header__left .navbar-brand img {
+  width: 110px;
+}
+
+.header__left .header__categories {
+  display: block;
+  margin-right: 1rem;
+  align-self: center;
+}
+
+.header__left .header__form {
+  flex-grow: 1;
+}
 /*# sourceMappingURL=main.css.map */
