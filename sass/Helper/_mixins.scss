@@ -6,7 +6,6 @@
 }
 
 // button 
-
 @mixin styleBtn($bg, $bd-color, $bd-radius, $py, $px) {
     background-color: $bg;
     border: 1px solid $bd-color;
@@ -19,4 +18,18 @@
     background-color: $bg-color;
     border-color: $bd-color;
     color: $color;
+}
+
+// responsive
+@mixin responsive($screenName) {
+    // kiem tra ten man hinh hop le 
+    @if(map-has-key($map: $breakpoints , $key: $screenName)) {
+        // $value chua gia tri man hinh lay duoc vd: 576px
+        $value: map-get($map: $breakpoints, $key: $screenName);
+        @media screen and (max-width: $value) {
+            @content;
+        }
+    }@else {
+        @warn 'Màn hình không hợp lệ'
+    }
 }

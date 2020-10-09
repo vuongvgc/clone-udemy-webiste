@@ -72,4 +72,10 @@ header .navbar .nav-link {
 .header__left .header__form {
   flex-grow: 1;
 }
+
+@media screen and (max-width: 1200px) {
+  .header__right .nav__business, .header__right .nav__tech {
+    display: none;
+  }
+}
 /*# sourceMappingURL=main.css.map */

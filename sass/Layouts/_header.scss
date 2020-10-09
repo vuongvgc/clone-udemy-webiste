@@ -28,3 +28,14 @@ header {
 .header__right {
 
 }
+
+
+// Responsive 
+.header__right {    
+    @include responsive('extra-large') {
+        // code nay se dc gan vao @content
+        .nav__business,  .nav__tech {
+            display: none;
+        }
+    }
+}
