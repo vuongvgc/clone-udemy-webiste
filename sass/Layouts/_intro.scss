@@ -1,0 +1,19 @@
+.intro {
+    background: linear-gradient(-45deg,#EC5252 0%,#6E1A52 100%);
+    .intro__item {
+        padding: $pd-3 0 $pd-1 $pd-2;
+        .intro__icon {
+            padding-right: $pd-3;
+            i {
+                color: $color-white-0;
+                font-size: 3.5rem;
+            }
+        }
+        h3 {
+            @include styleText($fs-5,$fw-bold,$color-white-0);
+        }
+        p {
+            @include styleText($fs-0,$fw-normal,$color-white-0);
+        }
+    }
+}

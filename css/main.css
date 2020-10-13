@@ -196,4 +196,33 @@ header .navbar .nav-link {
   font-size: 24px;
   padding: 20px 0;
 }
+
+.intro {
+  background: linear-gradient(-45deg, #EC5252 0%, #6E1A52 100%);
+}
+
+.intro .intro__item {
+  padding: 25px 0 10px 20px;
+}
+
+.intro .intro__item .intro__icon {
+  padding-right: 25px;
+}
+
+.intro .intro__item .intro__icon i {
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+.intro .intro__item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.intro .intro__item p {
+  font-size: 15px;
+  font-weight: normal;
+  color: #fff;
+}
 /*# sourceMappingURL=main.css.map */
