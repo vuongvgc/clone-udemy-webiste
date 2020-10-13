@@ -59,22 +59,78 @@ header .navbar .nav-link {
   display: flex;
 }
 
+.header__left .navbar-brand {
+  display: block;
+  margin-right: 35px;
+}
+
 .header__left .navbar-brand img {
   width: 110px;
 }
 
 .header__left .header__categories {
   display: block;
-  margin-right: 1rem;
+  margin-right: 35px;
   align-self: center;
+}
+
+.header__left .header__categories i {
+  margin-right: 10px;
 }
 
 .header__left .header__form {
   flex-grow: 1;
 }
 
+.header__left .header__form .input-group-text {
+  color: #ec5252;
+  transition: all .2s;
+}
+
+.header__left .header__form .input-group-text:hover {
+  background-color: #ec5252;
+  color: #fff;
+}
+
+.header__left .navbar-toggler {
+  color: #686f7a;
+  opacity: 1;
+}
+
+.header__right .navbar-nav {
+  align-items: baseline;
+}
+
+.header__right .navbar-nav .nav__business {
+  margin-right: 25px;
+}
+
+.header__right .navbar-nav .nav__tech {
+  margin-right: 25px;
+}
+
+.header__right .navbar-nav .nav__cart {
+  padding: 0 20px;
+  border-left: 1px solid #cacbcc;
+}
+
 @media screen and (max-width: 1200px) {
   .header__right .nav__business, .header__right .nav__tech {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__right .udemy-btn-group {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__left {
+    justify-content: center;
+  }
+  .header__left .header__categories, .header__left .header__form {
     display: none;
   }
 }

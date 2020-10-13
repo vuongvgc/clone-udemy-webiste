@@ -12,21 +12,53 @@ header {
     display: flex;
     // flex-grow: Tang kich thuoc con. khi cha con cho trong
     .navbar-brand {
+        display: block;
+        margin-right: $mg-3;
         img {
             width: 110px;
         }
     }
     .header__categories {
         display: block;
-        margin-right: 1rem;
+        margin-right: $mg-3;
         align-self: center;
+        i{
+            margin-right: $mg-1;   
+        }
     }
     .header__form {
         flex-grow: 1;
+        .input-group-text {
+            color: $color-red-0;
+            transition: all .2s;
+            &:hover {
+                background-color: $color-red-0;
+                color: $color-white-0;
+            }
+        }
+    }
+    .navbar-toggler {
+        color: $color-gray-4;
+        opacity: 1;
     }
 }
 .header__right {
-
+    .navbar-nav {
+        align-items: baseline;
+        .nav__business {
+            margin-right: $mg-2;
+    
+        }
+        .nav__tech {
+            margin-right: $mg-2;
+    
+        }
+        .nav__cart {
+            padding: 0 $pd-2;
+            border-left: 1px solid $color-gray-3;
+        }
+    }
+    
 }
 
 
@@ -37,5 +69,21 @@ header {
         .nav__business,  .nav__tech {
             display: none;
         }
+        // chinh chieu dai bang bootstrap
+    }
+    @include responsive('medium'){
+        .udemy-btn-group {
+            display: none;
+        }
+    }
+}
+.header__left {
+    @include responsive('medium'){
+        justify-content: center;
+        .header__categories, .header__form{
+            display: none;
+        }
+        
+        
     }
 }

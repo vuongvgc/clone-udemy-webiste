@@ -16,10 +16,16 @@
 <body>
     <!-- header  -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-md bg-light">
             <!-- navbar : display: flex already -->
             <!-- left  -->
-            <div class="col-7">
+            <div class="col-2 d-md-none">
+                <!-- toggle  -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+                </button>
+            </div>
+            <div class="col-8  col-lg-9 col-xl-7 col-md-6 justify-items-around">
                 <div class="header__left">
                     <!-- logo  -->
                     <a class="navbar-brand" href="#"><img src="./img/logo-coral.svg"></a>
@@ -36,7 +42,7 @@
                 </div>
             </div>
             <!-- right  -->
-            <div class="col-5">
+            <div class="col-2 col-lg-3 col-xl-5 col-md-6">
                 <div class="header__right">
                     <!-- nav text  -->
                     <ul class="navbar-nav mr-auto">
@@ -46,23 +52,20 @@
                         <li class="nav-item nav__tech">
                             <a class="nav-link" href="#">Tech on Udemy</a>
                         </li>
-                        <li class="nav-item"> 
+                        <li class="nav-item nav__cart"> 
                             <a class="nav-link" href="#"><i class="fa fa-cart-arrow-down"></i></a>
                         </li>
                         <!-- button  -->
-                        <li class="nav-item">
+                        <li class="nav-item udemy-btn-group">
                             <button class="udemy-btn-white btn my-2 mr-2 my-sm-0">Login</button>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item udemy-btn-group">
                             <button class="udemy-btn-orange btn my-2 my-sm-0">Sign up</button>
                         </li>
                     </ul>
                 </div>
             </div>
-            <!-- toggle  -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            
             <!-- collapse
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
