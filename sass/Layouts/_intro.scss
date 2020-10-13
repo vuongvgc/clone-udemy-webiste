@@ -1,7 +1,8 @@
 .intro {
+    margin-bottom: $mg-3;
     background: linear-gradient(-45deg,#EC5252 0%,#6E1A52 100%);
     .intro__item {
-        padding: $pd-3 0 $pd-1 $pd-2;
+        padding: $pd-3 0 $pd-1 $pd-3;
         .intro__icon {
             padding-right: $pd-3;
             i {

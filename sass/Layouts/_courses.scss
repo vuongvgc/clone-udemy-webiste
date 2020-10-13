@@ -1,0 +1,9 @@
+.courses {
+    padding: $pd-3 0;
+    .courses__text {
+        background-color: $color-gray-5;
+    }
+    .courses__item {
+        @include courses__item();
+    }
+}

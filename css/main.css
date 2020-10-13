@@ -198,11 +198,12 @@ header .navbar .nav-link {
 }
 
 .intro {
+  margin-bottom: 35px;
   background: linear-gradient(-45deg, #EC5252 0%, #6E1A52 100%);
 }
 
 .intro .intro__item {
-  padding: 25px 0 10px 20px;
+  padding: 25px 0 10px 25px;
 }
 
 .intro .intro__item .intro__icon {
@@ -224,5 +225,77 @@ header .navbar .nav-link {
   font-size: 15px;
   font-weight: normal;
   color: #fff;
+}
+
+.courses {
+  padding: 25px 0;
+}
+
+.courses .courses__text {
+  background-color: #F7F8FA;
+}
+
+.courses .courses__item .courses__box {
+  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+}
+
+.courses .courses__item .courses__detail {
+  padding: 10px;
+}
+
+.courses .courses__item img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.courses .courses__item h4 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #29303b;
+  margin-bottom: 10px;
+}
+
+.courses .courses__item p {
+  font-size: 13px;
+  font-weight: normal;
+  color: #505763;
+  margin-bottom: 10px;
+}
+
+.courses .courses__item .icon__star {
+  margin-bottom: 10px;
+}
+
+.courses .courses__item .icon__star i {
+  color: #F4C150;
+}
+
+.courses .courses__item .icon__star .rate {
+  font-size: 13px;
+  font-weight: bold;
+  color: #29303b;
+}
+
+.courses .courses__item .icon__star .courses__member {
+  font-size: 13px;
+  font-weight: normal;
+  color: #29303b;
+}
+
+.courses .courses__item .courses__price {
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+.courses .courses__item .courses__price del {
+  font-size: 13px;
+  font-weight: normal;
+  color: #29303b;
+}
+
+.courses .courses__item .courses__price b {
+  font-size: 18px;
+  font-weight: bold;
+  color: #29303b;
 }
 /*# sourceMappingURL=main.css.map */

@@ -41,6 +41,50 @@
         }
     }
 }
+// course item 
+@mixin courses__item() {
+    .courses__box {
+        box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+    }
+    .courses__detail {
+        padding: $pd-1;
+    }
+    img {
+        width: 100%;
+        margin-bottom: $mg-1;
+    }
+    h4 {
+        @include styleText($fs-0,$fw-bold, $color-black-0);
+        margin-bottom: $mg-1;
+    }
+    p {
+        @include styleText($fs-1,$fw-normal,$color-black-light);
+        margin-bottom: $mg-1;
+    }
+    .icon__star {
+        margin-bottom: $mg-1;
+        i {
+            color: $color-yellow;
+        }
+        .rate {
+            @include styleText($fs-1,$fw-bold, $color-black-0 )
+        }
+        .courses__member {
+            @include styleText($fs-1,$fw-normal, $color-black-0 )
+        }
+        
+    }
+    .courses__price {
+        text-align: right;
+        padding-bottom: $pd-1;
+        del {
+            @include styleText($fs-1,$fw-normal, $color-black-0 )
+        }
+        b {
+            @include styleText($fs-5,$fw-bold, $color-black-0 )
+        }
+    }
+}
 
 // responsive
 @mixin responsive($screenName) {
