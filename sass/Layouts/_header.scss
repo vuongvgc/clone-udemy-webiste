@@ -27,15 +27,7 @@ header {
         }
     }
     .header__form {
-        flex-grow: 1;
-        .input-group-text {
-            color: $color-red-0;
-            transition: all .2s;
-            &:hover {
-                background-color: $color-red-0;
-                color: $color-white-0;
-            }
-        }
+        @include searchForm($color-gray-6)
     }
     .navbar-toggler {
         color: $color-gray-4;

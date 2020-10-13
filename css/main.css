@@ -79,12 +79,21 @@ header .navbar .nav-link {
 }
 
 .header__left .header__form {
+  background-color: #dedfe0;
   flex-grow: 1;
+}
+
+.header__left .header__form .input-group input {
+  padding: 20px 10px;
+  background-color: #F2F3F5;
+  border: none;
 }
 
 .header__left .header__form .input-group-text {
   color: #ec5252;
   transition: all .2s;
+  background-color: #F2F3F5;
+  border: none;
 }
 
 .header__left .header__form .input-group-text:hover {
@@ -133,5 +142,58 @@ header .navbar .nav-link {
   .header__left .header__categories, .header__left .header__form {
     display: none;
   }
+}
+
+.udemy-carousel {
+  background-image: url("../../img/cover.jpg");
+  height: 400px;
+  position: relative;
+}
+
+.udemy-carousel .udemy-carousel__content {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.udemy-carousel .udemy-carousel__content h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.udemy-carousel .udemy-carousel__content p {
+  font-size: 20px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.udemy-carousel .udemy-carousel__content .udemy-carousel__form {
+  background-color: #dedfe0;
+  flex-grow: 1;
+}
+
+.udemy-carousel .udemy-carousel__content .udemy-carousel__form .input-group input {
+  padding: 20px 10px;
+  background-color: #F2F3F5;
+  border: none;
+}
+
+.udemy-carousel .udemy-carousel__content .udemy-carousel__form .input-group-text {
+  color: #ec5252;
+  transition: all .2s;
+  background-color: #F2F3F5;
+  border: none;
+}
+
+.udemy-carousel .udemy-carousel__content .udemy-carousel__form .input-group-text:hover {
+  background-color: #ec5252;
+  color: #fff;
+}
+
+.udemy-carousel .udemy-carousel__content .udemy-carousel__form input {
+  font-size: 24px;
+  padding: 20px 0;
 }
 /*# sourceMappingURL=main.css.map */

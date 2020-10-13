@@ -16,7 +16,7 @@
 <body>
     <!-- header  -->
     <header>
-        <nav class="navbar navbar-expand-md bg-light">
+        <nav class="navbar navbar-expand-md bg-light p-3">
             <!-- navbar : display: flex already -->
             <!-- left  -->
             <div class="col-2 d-md-none">
@@ -33,11 +33,11 @@
                     <!-- search  -->
                     <form class="header__form">
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search for anything" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <input type="text" class="form-control" placeholder="Search for anything">
                             <div class="input-group-append">
                               <span class="input-group-text" id="basic-addon2"><i class="fa fa-search"></i></span>
                             </div>
-                          </div>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -85,7 +85,20 @@
           </nav>
     </header>
     <!-- udemy carousel -->
-    <section class="udemy__carousel"></section>
+    <section class="udemy-carousel">
+        <div class="udemy-carousel__content col-5">
+            <h2>Learn on your schedule</h2>
+            <p>Study any topic, anytime. Choose from thousands of expert-led courses now.</p>
+            <form class="udemy-carousel__form ">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="What do you want to learn">
+                    <div class="input-group-append">
+                      <span class="input-group-text" id="basic-addon2"><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
     <!-- introduction  -->
     <section class="intro"></section>
     <!-- courses -->

@@ -19,6 +19,28 @@
     border-color: $bd-color;
     color: $color;
 }
+// search form 
+@mixin searchForm($bg) {
+    background-color: $bg;
+    flex-grow: 1;
+    .input-group {
+        input {
+            padding: $pd-2 $pd-1 ;
+            background-color: #F2F3F5;
+            border: none;
+        }
+    }
+    .input-group-text {
+        color: $color-red-0;
+        transition: all .2s;
+        background-color: #F2F3F5;
+        border: none;
+        &:hover{
+            background-color: $color-red-0;
+            color: $color-white-0;
+        }
+    }
+}
 
 // responsive
 @mixin responsive($screenName) {
