@@ -229,6 +229,7 @@ header .navbar .nav-link {
 
 .courses {
   padding: 25px 0;
+  margin-bottom: 35px;
 }
 
 .courses .courses__intro {
@@ -320,5 +321,37 @@ header .navbar .nav-link {
   background-color: #fff;
   color: #29303b;
   padding: 0 10px 10px;
+}
+
+.services {
+  margin-bottom: 35px;
+  background-color: #f2f3f5;
+  padding: 25px;
+}
+
+.services .services__box {
+  flex-wrap: nowrap;
+}
+
+.services .services__box .service__item {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 10px;
+}
+
+.services .services__box .service__item .service__icon {
+  padding: 0 20px;
+}
+
+.services .services__box .service__item .service__text h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #29303b;
+}
+
+.services .services__box .service__item .service__text p {
+  font-size: 17px;
+  font-weight: normal;
+  color: #686f7a;
 }
 /*# sourceMappingURL=main.css.map */

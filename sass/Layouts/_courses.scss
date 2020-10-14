@@ -1,5 +1,6 @@
 .courses {
     padding: $pd-3 0;
+    margin-bottom: $mg-3;
     .courses__intro {
         background-color: $color-gray-5;
         position: relative;
@@ -22,9 +23,7 @@
                 color: $color-black-0;
                 padding: 0 $pd-1 $pd-1;
                  
-            }
-            
-           
+            }  
         }
         
     }
