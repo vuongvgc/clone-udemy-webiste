@@ -231,8 +231,16 @@ header .navbar .nav-link {
   padding: 25px 0;
 }
 
-.courses .courses__text {
+.courses .courses__intro {
   background-color: #F7F8FA;
+  position: relative;
+}
+
+.courses .courses__intro .courses__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .courses .courses__item .courses__box {
@@ -297,5 +305,20 @@ header .navbar .nav-link {
   font-size: 18px;
   font-weight: bold;
   color: #29303b;
+}
+
+.courses .courses__link {
+  border-bottom: 1px solid #dedfe0;
+  height: 70px;
+}
+
+.courses .courses__link .nav-item {
+  height: 100%;
+}
+
+.courses .courses__link .nav-item .nav-link {
+  background-color: #fff;
+  color: #29303b;
+  padding: 0 10px 10px;
 }
 /*# sourceMappingURL=main.css.map */

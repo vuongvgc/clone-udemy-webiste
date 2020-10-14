@@ -85,7 +85,13 @@
         }
     }
 }
-
+// center text box 
+@mixin centerTextBox() {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 // responsive
 @mixin responsive($screenName) {
     // kiem tra ten man hinh hop le 
