@@ -687,4 +687,50 @@ header .navbar .nav-link {
   height: 50px;
   margin-bottom: 25px;
 }
+
+footer .footer__nav {
+  padding: 20px;
+  justify-content: space-around;
+}
+
+footer .footer__nav .footer__nav-item {
+  padding: 20px;
+}
+
+footer .footer__nav .footer__nav-item .nav-link {
+  font-size: 13px;
+  font-weight: normal;
+  color: #007791;
+}
+
+footer .footer__nav .footer__nav-item .active__nav .nav-link {
+  font-weight: bold;
+}
+
+footer .footer__nav .footer__language {
+  text-align: right;
+}
+
+footer .footer__copyright {
+  justify-content: space-between;
+  padding: 25px;
+  border-top: 1px solid #dedfe0;
+}
+
+footer .footer__copyright .footer__img {
+  padding: 10px;
+}
+
+footer .footer__copyright .footer__img img {
+  height: 40px;
+}
+
+footer .footer__copyright .footer__policy {
+  text-align: right;
+}
+
+footer .footer__copyright .footer__policy ul {
+  list-style-type: none;
+  justify-content: flex-end;
+}
 /*# sourceMappingURL=main.css.map */
