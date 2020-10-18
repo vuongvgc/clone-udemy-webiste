@@ -610,8 +610,8 @@ header .navbar .nav-link {
 }
 
 .feedback {
-  margin-bottom: 35px;
   background-color: #F7F8FA;
+  padding-bottom: 35px;
   height: 400px;
 }
 
@@ -642,5 +642,49 @@ header .navbar .nav-link {
   font-size: 20px;
   font-weight: bold;
   color: #29303b;
+}
+
+.companies {
+  background-color: #F7F8FA;
+  margin-bottom: 35px;
+}
+
+.companies .companies__slogan {
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: normal;
+  color: #686f7a;
+}
+
+.companies .companies__partners {
+  align-items: center;
+  width: 75%;
+  margin: 25px auto;
+  flex-wrap: nowrap;
+}
+
+.companies .companies__partners .companies__item {
+  margin: 0 10px;
+}
+
+.companies .companies__teacher .companies__teacher-box .companies__text {
+  margin: 25px auto;
+  text-align: center;
+}
+
+.companies .companies__teacher .companies__teacher-box .companies__text h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #29303b;
+  padding: 25px 0;
+}
+
+.companies .companies__teacher .companies__teacher-box .companies__text p {
+  height: 50px;
+  margin-bottom: 25px;
 }
 /*# sourceMappingURL=main.css.map */
