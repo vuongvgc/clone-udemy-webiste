@@ -262,6 +262,11 @@ header .navbar .nav-link {
   background: linear-gradient(-45deg, #EC5252 0%, #6E1A52 100%);
 }
 
+.intro .intro__content {
+  flex-wrap: nowrap;
+  margin-right: 0;
+}
+
 .intro .intro__item {
   padding: 25px 0 10px 25px;
 }
@@ -519,6 +524,7 @@ header .navbar .nav-link {
   font-size: 32px;
   font-weight: normal;
   color: #fff;
+  overflow: hidden;
 }
 
 .banner::before {
@@ -536,7 +542,7 @@ header .navbar .nav-link {
 }
 
 .banner .banner__top .icon__item, .banner .banner__bottom .icon__item {
-  margin: 40px;
+  margin: 30px;
 }
 
 .banner .banner__middle {

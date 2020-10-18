@@ -1,6 +1,7 @@
 .banner {
     background-color: $color-black-0;
     @include styleText($fs-7,$fw-normal, $color-white-0);
+    overflow: hidden;
     &::before {
         content: '';
         display: block;
@@ -13,7 +14,7 @@
         justify-content: space-around;
         text-align: center;
         .icon__item {
-            margin: 40px;
+            margin: 30px;
 
         }
     }
@@ -29,9 +30,7 @@
                 @include styleText($fs-0, $fw-normal, $color-white-0);
 
             }
-            button {
-                @include styleBtn()
-            }
+            
         }
     }
 }
