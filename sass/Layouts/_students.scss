@@ -3,8 +3,10 @@
     .students__header {
         @include styleText($fs-2, $fw-normal, $color-black-light )
     }
-    .courses__item {
-        @include courses__item();
-        padding: 0;
-    }
+    .student__carousel {
+        .courses__item {
+            @include courses__item();
+            padding: 0;
+        }
+    }    
 }

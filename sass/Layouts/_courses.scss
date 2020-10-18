@@ -9,9 +9,12 @@
 
         }
     }
-    .courses__item {
-        @include courses__item();
-        
+    .courses__carousel {
+        position: relative;
+        .courses__item {
+            @include courses__item();
+            
+        }
     }
     .courses__link {
         border-bottom: 1px solid $color-gray-6;

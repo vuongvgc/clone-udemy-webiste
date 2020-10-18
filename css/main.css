@@ -11,6 +11,66 @@ html, body {
   color: #29303b;
 }
 
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot
+.owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  top: 30%;
+  left: -5%;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #a1a7b3;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: all .2s;
+}
+
+.owl-carousel .owl-nav button.owl-prev span, .owl-carousel button.owl-dot
+.owl-carousel .owl-nav button.owl-prev span {
+  font-size: 40px;
+  font-weight: normal;
+  color: #007791;
+  line-height: 30px;
+}
+
+.owl-carousel .owl-nav button.owl-prev:focus, .owl-carousel button.owl-dot
+.owl-carousel .owl-nav button.owl-prev:focus {
+  outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel button.owl-dot
+.owl-carousel .owl-nav button.owl-prev:hover {
+  background-color: #fff;
+  box-shadow: 0px 1px 5px 3px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  top: 30%;
+  right: -5%;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #a1a7b3;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: all .2s;
+}
+
+.owl-carousel .owl-nav button.owl-next span {
+  font-size: 40px;
+  font-weight: normal;
+  color: #007791;
+  line-height: 30px;
+}
+
+.owl-carousel .owl-nav button.owl-next:focus {
+  outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover {
+  background-color: #fff;
+  box-shadow: 0px 1px 5px 3px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+}
+
 .udemy-btn-white {
   font-size: 15px;
   font-weight: 700;
@@ -244,65 +304,79 @@ header .navbar .nav-link {
   transform: translate(-50%, -50%);
 }
 
-.courses .courses__item .courses__box {
+.courses .courses__carousel {
+  position: relative;
+}
+
+.courses .courses__carousel .courses__item {
+  border: 1px solid #F7F8FA;
+  margin: 2px;
+  margin-right: 2px;
+}
+
+.courses .courses__carousel .courses__item:hover {
+  box-shadow: 1px 6px 4px 2px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+}
+
+.courses .courses__carousel .courses__item .courses__box {
   box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
 }
 
-.courses .courses__item .courses__detail {
+.courses .courses__carousel .courses__item .courses__detail {
   padding: 10px;
 }
 
-.courses .courses__item img {
+.courses .courses__carousel .courses__item img {
   width: 100%;
   margin-bottom: 10px;
 }
 
-.courses .courses__item h4 {
+.courses .courses__carousel .courses__item h4 {
   font-size: 15px;
   font-weight: bold;
   color: #29303b;
   margin-bottom: 10px;
 }
 
-.courses .courses__item p {
+.courses .courses__carousel .courses__item p {
   font-size: 13px;
   font-weight: normal;
   color: #505763;
   margin-bottom: 10px;
 }
 
-.courses .courses__item .icon__star {
+.courses .courses__carousel .courses__item .icon__star {
   margin-bottom: 10px;
 }
 
-.courses .courses__item .icon__star i {
+.courses .courses__carousel .courses__item .icon__star i {
   color: #F4C150;
 }
 
-.courses .courses__item .icon__star .rate {
+.courses .courses__carousel .courses__item .icon__star .rate {
   font-size: 13px;
   font-weight: bold;
   color: #29303b;
 }
 
-.courses .courses__item .icon__star .courses__member {
+.courses .courses__carousel .courses__item .icon__star .courses__member {
   font-size: 13px;
   font-weight: normal;
   color: #29303b;
 }
 
-.courses .courses__item .courses__price {
+.courses .courses__carousel .courses__item .courses__price {
   text-align: right;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
-.courses .courses__item .courses__price del {
+.courses .courses__carousel .courses__item .courses__price del {
   font-size: 13px;
   font-weight: normal;
   color: #29303b;
 }
 
-.courses .courses__item .courses__price b {
+.courses .courses__carousel .courses__item .courses__price b {
   font-size: 18px;
   font-weight: bold;
   color: #29303b;
@@ -365,69 +439,76 @@ header .navbar .nav-link {
   color: #505763;
 }
 
-.students .courses__item {
+.students .student__carousel .courses__item {
+  border: 1px solid #F7F8FA;
+  margin: 2px;
+  margin-right: 2px;
   padding: 0;
 }
 
-.students .courses__item .courses__box {
+.students .student__carousel .courses__item:hover {
+  box-shadow: 1px 6px 4px 2px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+}
+
+.students .student__carousel .courses__item .courses__box {
   box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
 }
 
-.students .courses__item .courses__detail {
+.students .student__carousel .courses__item .courses__detail {
   padding: 10px;
 }
 
-.students .courses__item img {
+.students .student__carousel .courses__item img {
   width: 100%;
   margin-bottom: 10px;
 }
 
-.students .courses__item h4 {
+.students .student__carousel .courses__item h4 {
   font-size: 15px;
   font-weight: bold;
   color: #29303b;
   margin-bottom: 10px;
 }
 
-.students .courses__item p {
+.students .student__carousel .courses__item p {
   font-size: 13px;
   font-weight: normal;
   color: #505763;
   margin-bottom: 10px;
 }
 
-.students .courses__item .icon__star {
+.students .student__carousel .courses__item .icon__star {
   margin-bottom: 10px;
 }
 
-.students .courses__item .icon__star i {
+.students .student__carousel .courses__item .icon__star i {
   color: #F4C150;
 }
 
-.students .courses__item .icon__star .rate {
+.students .student__carousel .courses__item .icon__star .rate {
   font-size: 13px;
   font-weight: bold;
   color: #29303b;
 }
 
-.students .courses__item .icon__star .courses__member {
+.students .student__carousel .courses__item .icon__star .courses__member {
   font-size: 13px;
   font-weight: normal;
   color: #29303b;
 }
 
-.students .courses__item .courses__price {
+.students .student__carousel .courses__item .courses__price {
   text-align: right;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
-.students .courses__item .courses__price del {
+.students .student__carousel .courses__item .courses__price del {
   font-size: 13px;
   font-weight: normal;
   color: #29303b;
 }
 
-.students .courses__item .courses__price b {
+.students .student__carousel .courses__item .courses__price b {
   font-size: 18px;
   font-weight: bold;
   color: #29303b;

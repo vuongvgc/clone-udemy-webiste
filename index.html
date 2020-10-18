@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- bootstrap  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- own carousel  -->
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <!-- font google  -->
@@ -185,76 +188,114 @@
                   <div class="tab-content" id="pills-tabContent">
                     <!-- Business -->
                     <div class="tab-pane fade show active" id="pills-business" role="tabpanel">
-                        <div class="row">
+                        <div class="courses__carousel owl-carousel owl-theme">
                             <!-- courses 1  -->
-                            <div class="col-4">
-                                <div class="courses__item">
-                                    <div class="courses__box">
-                                        <img src="./img/kh1.jpg" class="img-fluid" alt="course 1">
-                                        <div class="courses__detail">
-                                            <h4>The Complete Foundation Stock Trading Course</h4>
-                                            <p>Lorem, ipsum dolor.</p>
-                                            <div class="icon__star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half"></i>
-                                                <span class="courses__rate">4.5</span>
-                                                <span class="courses__member">(17,931)</span>
-                                            </div>
+                            <div class="item courses__item">
+                                <div class="courses__box">
+                                    <img src="./img/kh1.jpg" class="img-fluid" alt="course 1">
+                                    <div class="courses__detail">
+                                        <h4>The Complete Foundation Stock Trading Course</h4>
+                                        <p>Lorem, ipsum dolor.</p>
+                                        <div class="icon__star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half"></i>
+                                            <span class="courses__rate">4.5</span>
+                                            <span class="courses__member">(17,931)</span>
                                         </div>
-                                        <div class="courses__price">
-                                            <del>$134.99</del><b> $15.99</b>
-                                        </div>
+                                    </div>
+                                    <div class="courses__price">
+                                        <del>$134.99</del><b> $15.99</b>
                                     </div>
                                 </div>
                             </div>
                             <!-- courses 2  -->
-                            <div class="col-4">
-                                <div class="courses__item">
-                                    <div class="courses__box">
-                                        <img src="./img/kh2.jpg" class="img-fluid" alt="course 1">
-                                        <div class="courses__detail">
-                                            <h4>The Complete Foundation Stock Trading Course</h4>
-                                            <p>Lorem, ipsum dolor.</p>
-                                            <div class="icon__star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half"></i>
-                                                <span class="courses__rate">4.5</span>
-                                                <span class="courses__member">(17,931)</span>
-                                            </div>
+                            <div class="item courses__item">
+                                <div class="courses__box">
+                                    <img src="./img/kh2.jpg" class="img-fluid" alt="course 1">
+                                    <div class="courses__detail">
+                                        <h4>The Complete Foundation Stock Trading Course</h4>
+                                        <p>Lorem, ipsum dolor.</p>
+                                        <div class="icon__star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half"></i>
+                                            <span class="courses__rate">4.5</span>
+                                            <span class="courses__member">(17,931)</span>
                                         </div>
-                                        <div class="courses__price">
-                                            <del>$134.99</del><b> $15.99</b>
-                                        </div>
+                                    </div>
+                                    <div class="courses__price">
+                                        <del>$134.99</del><b> $15.99</b>
                                     </div>
                                 </div>
                             </div>
                             <!-- courses 3  -->
-                            <div class="col-4">
-                                <div class="courses__item">
-                                    <div class="courses__box">
-                                        <img src="./img/kh3.jpg" class="img-fluid" alt="course 1">
-                                        <div class="courses__detail">
-                                            <h4>The Complete Foundation Stock Trading Course</h4>
-                                            <p>Lorem, ipsum dolor.</p>
-                                            <div class="icon__star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half"></i>
-                                                <span class="courses__rate">4.5</span>
-                                                <span class="courses__member">(17,931)</span>
-                                            </div>
+                            <div class="item courses__item">
+                                <div class="courses__box">
+                                    <img src="./img/kh3.jpg" class="img-fluid" alt="course 1">
+                                    <div class="courses__detail">
+                                        <h4>The Complete Foundation Stock Trading Course</h4>
+                                        <p>Lorem, ipsum dolor.</p>
+                                        <div class="icon__star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half"></i>
+                                            <span class="courses__rate">4.5</span>
+                                            <span class="courses__member">(17,931)</span>
                                         </div>
-                                        <div class="courses__price">
-                                            <del>$134.99</del><b> $15.99</b>
+                                    </div>
+                                    <div class="courses__price">
+                                        <del>$134.99</del><b> $15.99</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- courses 4  -->
+                            <div class="item courses__item">
+                                <div class="courses__box">
+                                    <img src="./img/kh1.jpg" class="img-fluid" alt="course 1">
+                                    <div class="courses__detail">
+                                        <h4>The Complete Foundation Stock Trading Course</h4>
+                                        <p>Lorem, ipsum dolor.</p>
+                                        <div class="icon__star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half"></i>
+                                            <span class="courses__rate">4.5</span>
+                                            <span class="courses__member">(17,931)</span>
                                         </div>
+                                    </div>
+                                    <div class="courses__price">
+                                        <del>$134.99</del><b> $15.99</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- courses 4  -->
+                            <div class="item courses__item">
+                                <div class="courses__box">
+                                    <img src="./img/kh1.jpg" class="img-fluid" alt="course 1">
+                                    <div class="courses__detail">
+                                        <h4>The Complete Foundation Stock Trading Course</h4>
+                                        <p>Lorem, ipsum dolor.</p>
+                                        <div class="icon__star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half"></i>
+                                            <span class="courses__rate">4.5</span>
+                                            <span class="courses__member">(17,931)</span>
+                                        </div>
+                                    </div>
+                                    <div class="courses__price">
+                                        <del>$134.99</del><b> $15.99</b>
                                     </div>
                                 </div>
                             </div>
@@ -774,9 +815,10 @@
         <div class="container">
             <h3 class="students__header">Students are viewing</h3>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-2 pl-0 pr-3">
-                <div class="courses__item">
+        <div class="container">
+            <div class="student__carousel owl-carousel owl-theme">
+                <!-- courses 1  -->
+                <div class="item courses__item">
                     <div class="courses__box">
                         <img src="./img/kh1.jpg" class="img-fluid" alt="course 1">
                         <div class="courses__detail">
@@ -797,10 +839,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- courses 2  -->
-            <div class="col-2 pl-0 pr-3">
-                <div class="courses__item">
+                <!-- courses 2  -->
+                <div class="item courses__item">
                     <div class="courses__box">
                         <img src="./img/kh2.jpg" class="img-fluid" alt="course 1">
                         <div class="courses__detail">
@@ -821,10 +861,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- courses 3  -->
-            <div class="col-2 pl-0 pr-3">
-                <div class="courses__item">
+                <!-- courses 3  -->
+                <div class="item courses__item">
                     <div class="courses__box">
                         <img src="./img/kh3.jpg" class="img-fluid" alt="course 1">
                         <div class="courses__detail">
@@ -845,10 +883,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- courses 4  -->
-            <div class="col-2 pl-0 pr-3">
-                <div class="courses__item">
+                <!-- courses 4  -->
+                <div class="item courses__item">
                     <div class="courses__box">
                         <img src="./img/kh8.jpg" class="img-fluid" alt="course 1">
                         <div class="courses__detail">
@@ -869,10 +905,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- courses 5  -->
-            <div class="col-2 pl-0 pr-3">
-                <div class="courses__item">
+                <!-- courses 5  -->
+                <div class="item courses__item">
                     <div class="courses__box">
                         <img src="./img/kh14.jpg" class="img-fluid" alt="course 1">
                         <div class="courses__detail">
@@ -893,11 +927,57 @@
                         </div>
                     </div>
                 </div>
-            </div>
+                <!-- courses 6  -->
+                <div class="item courses__item">
+                    <div class="courses__box">
+                        <img src="./img/kh2.jpg" class="img-fluid" alt="course 1">
+                        <div class="courses__detail">
+                            <h4>The Complete Foundation Stock Trading Course</h4>
+                            <p>Lorem, ipsum dolor.</p>
+                            <div class="icon__star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                                <span class="courses__rate">4.5</span>
+                                <span class="courses__member">(17,931)</span>
+                            </div>
+                        </div>
+                        <div class="courses__price">
+                            <del>$134.99</del><b> $15.99</b>
+                        </div>
+                    </div>
+                </div>
+                <!-- courses 7  -->
+                <div class="item courses__item">
+                    <div class="courses__box">
+                        <img src="./img/kh3.jpg" class="img-fluid" alt="course 1">
+                        <div class="courses__detail">
+                            <h4>The Complete Foundation Stock Trading Course</h4>
+                            <p>Lorem, ipsum dolor.</p>
+                            <div class="icon__star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                                <span class="courses__rate">4.5</span>
+                                <span class="courses__member">(17,931)</span>
+                            </div>
+                        </div>
+                        <div class="courses__price">
+                            <del>$134.99</del><b> $15.99</b>
+                        </div>
+                    </div>
+                </div>
+            </div>        
         </div>
     </section>
     <!-- banner  -->
-    <section class="banner"></section>
+    <section class="banner">
+        
+    </section>
     <!-- top categories -->
     <section class="categories"></section>
     <!-- feedback  -->
@@ -915,5 +995,44 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <!-- bootstrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- own carousel -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $('.courses__carousel').owlCarousel({
+            loop:false,
+            margin:10,
+            nav: true,
+            dots: false,
+            responsive:{
+                0:{
+                    items:1,
+                },
+                600:{
+                    items:3,
+                },
+                1000:{
+                    items:3,
+                }
+            }
+        });
+        // student carousel 
+        $('.student__carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav: true,
+            dots: false,
+            responsive:{
+                0:{
+                    items:1,
+                },
+                600:{
+                    items:3,
+                },
+                1000:{
+                    items:5,
+                }
+            }
+        });
+    </script>
 </body>
 </html>
