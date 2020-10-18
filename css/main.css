@@ -525,6 +525,7 @@ header .navbar .nav-link {
   font-weight: normal;
   color: #fff;
   overflow: hidden;
+  margin-bottom: 35px;
 }
 
 .banner::before {
@@ -561,5 +562,44 @@ header .navbar .nav-link {
   font-size: 15px;
   font-weight: normal;
   color: #fff;
+}
+
+.categories {
+  margin-bottom: 35px;
+}
+
+.categories .categories__content {
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  padding-left: 10px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.categories .categories__content .categories__item {
+  border: 1px solid #dedfe0;
+  align-items: baseline;
+  padding: 10px 20px;
+  border: 1px solid #a1a7b3;
+  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+  margin-bottom: 25px;
+}
+
+.categories .categories__content .categories__item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.categories .categories__content .categories__item span {
+  font-size: 15px;
+  font-weight: normal;
+  color: #505763;
+}
+
+.categories .categories__content .categories__item i {
+  padding-right: 10px;
+  font-size: 32px;
+  font-weight: normal;
+  color: #505763;
 }
 /*# sourceMappingURL=main.css.map */

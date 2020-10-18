@@ -2,6 +2,7 @@
     background-color: $color-black-0;
     @include styleText($fs-7,$fw-normal, $color-white-0);
     overflow: hidden;
+    margin-bottom: $mg-3;
     &::before {
         content: '';
         display: block;
