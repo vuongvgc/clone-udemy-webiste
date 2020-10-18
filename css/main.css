@@ -671,6 +671,10 @@ header .navbar .nav-link {
   margin: 0 10px;
 }
 
+.companies .companies__teacher {
+  flex-wrap: nowrap;
+}
+
 .companies .companies__teacher .companies__teacher-box .companies__text {
   margin: 25px auto;
   text-align: center;

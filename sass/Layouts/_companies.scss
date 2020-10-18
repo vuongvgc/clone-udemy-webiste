@@ -19,6 +19,7 @@
         }
     }
     .companies__teacher {
+        flex-wrap: nowrap;
         .companies__teacher-box {
             .companies__text {
                 margin: $mg-2 auto;
