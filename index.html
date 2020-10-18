@@ -1075,7 +1075,55 @@
     </div> 
     </section>
     <!-- feedback  -->
-    <section class="feedback"></section>
+    <section class="feedback">
+        <div class="container">
+            <h2>What our students have to say</h2>
+            <div class="feedback__carousel owl-carousel owl-theme">
+                <!-- item 1 -->
+                <div class="item feedback_item">
+                    <div class="row feedback__infor">
+                        <img class="col-4" src="./img/fb2.jpg" alt="fb2">
+                        <p class="col-8">Victor</p>
+                    </div>
+                    <p class="feedback__text">I work in project management and joined Udemy because I get great courses for less. The instructors are fantastic, interesting, and helpful. I plan to use Udemy for a long time!</p>
+                </div>
+                <!-- item 1 -->
+                <div class="item feedback_item">
+                    <div class="row feedback__infor">
+                        <img class="col-4" src="./img/fb4.jpg" alt="fb2">
+                        <p class="col-8">Anna</p>
+                    </div>
+                    <p class="feedback__text">Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence</p>
+                </div>
+                <!-- item 2 -->
+                <div class="item feedback_item">
+                    <div class="row feedback__infor">
+                        <img class="col-4" src="./img/fb1.jpg" alt="fb2">
+                        <p class="col-8">Joanne Craig</p>
+                    </div>
+                    <p class="feedback__text">Thank you Udemy! You've renewed my passion for learning and my dream of becoming a web developer.</p>
+                </div>
+                <!-- item 1 -->
+                <div class="item feedback_item">
+                    <div class="row feedback__infor">
+                        <img class="col-4" src="./img/fb3.jpg" alt="fb2">
+                        <p class="col-8">Crystal Chapman</p>
+                    </div>
+                    <p class="feedback__text">You can use AJAX to call the Random User Generator API and will receive a randomly generated user in return. If you are using jQuery, you can use the $.ajax() function in the code snippet below to get started</p>
+                </div>
+                <!-- item 1 -->
+                <div class="item feedback_item">
+                    <div class="row feedback__infor">
+                        <img class="col-4" src="./img/fb4.jpg" alt="fb2">
+                        <p class="col-8">Joyce Ward</p>
+                    </div>
+                    <p class="feedback__text">I work in project management and joined Udemy because I get great courses for less. The instructors are fantastic, interesting, and helpful. I plan to use Udemy for a long time!</p>
+                </div>
+
+            </div>
+        </div>
+        
+    </section>
     <!-- companies  -->
     <section class="companies"></section>
     <!-- footer -->
@@ -1124,6 +1172,24 @@
                 },
                 1000:{
                     items:5,
+                }
+            }
+        });
+        // feedback 
+        $('.feedback__carousel').owlCarousel({
+            loop:true,
+            margin:20,
+            nav: true,
+            dots: false,
+            responsive:{
+                0:{
+                    items:1,
+                },
+                600:{
+                    items:3,
+                },
+                1000:{
+                    items:3,
                 }
             }
         });

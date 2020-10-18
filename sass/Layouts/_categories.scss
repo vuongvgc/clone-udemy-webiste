@@ -1,5 +1,8 @@
 .categories{
     margin-bottom: $mg-3;
+    h2 {
+        @include styleText($fs-3, $fw-bold, $color-black-0)
+    }
     .categories__content {
         justify-content: space-around;
         align-items: baseline;

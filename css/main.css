@@ -568,6 +568,12 @@ header .navbar .nav-link {
   margin-bottom: 35px;
 }
 
+.categories h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #29303b;
+}
+
 .categories .categories__content {
   justify-content: space-around;
   align-items: baseline;
@@ -601,5 +607,40 @@ header .navbar .nav-link {
   font-size: 32px;
   font-weight: normal;
   color: #505763;
+}
+
+.feedback {
+  margin-bottom: 35px;
+  background-color: #F7F8FA;
+  height: 400px;
+}
+
+.feedback h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #29303b;
+  padding: 25px 0;
+}
+
+.feedback .feedback_item {
+  background-color: #fff;
+  height: 300px;
+  padding: 35px;
+}
+
+.feedback .feedback__infor {
+  align-items: center;
+}
+
+.feedback .feedback__infor img {
+  padding: 20px;
+  border-radius: 50%;
+  width: 100%;
+}
+
+.feedback .feedback__infor p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #29303b;
 }
 /*# sourceMappingURL=main.css.map */
