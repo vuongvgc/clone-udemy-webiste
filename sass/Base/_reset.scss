@@ -1,10 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-html, body {
+html {
+    font-size: 62.5%; // 1rem = 10px
+}
+body {
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     // style for all page 
-    @include styleText($fs-0, $fw-normal, $color-black-0)
+    @include styleText($fs-0, $fw-normal, $color-black-0);
+
 }
