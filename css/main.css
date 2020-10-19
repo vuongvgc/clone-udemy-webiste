@@ -155,6 +155,8 @@ header .navbar .nav-link {
 
 .header__left .header__form .input-group-text {
   color: #ec5252;
+  font-size: 2rem;
+  padding: 0 1.5rem;
   transition: all .2s;
   background-color: #F2F3F5;
   border: none;
@@ -246,6 +248,8 @@ header .navbar .nav-link {
 
 .udemy-carousel .udemy-carousel__content .udemy-carousel__form .input-group-text {
   color: #ec5252;
+  font-size: 2rem;
+  padding: 0 1.5rem;
   transition: all .2s;
   background-color: #F2F3F5;
   border: none;
@@ -717,6 +721,10 @@ footer .footer__nav .footer__nav-item .active__nav .nav-link {
 
 footer .footer__nav .footer__language {
   text-align: right;
+}
+
+footer .footer__nav .footer__language button {
+  font-size: 1.5rem;
 }
 
 footer .footer__copyright {
