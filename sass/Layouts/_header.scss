@@ -56,21 +56,37 @@ header {
 
 // Responsive 
 .header__right {    
-    @include responsive('extra-large') {
+    @include respond(tab-land) {
         // code nay se dc gan vao @content
         .nav__business,  .nav__tech {
             display: none;
         }
         // chinh chieu dai bang bootstrap
     }
-    @include responsive('medium'){
+    @include respond(phone){
         .udemy-btn-group {
             display: none;
         }
+        .nav__cart {
+            padding: 0 $pd-2;
+            border: none;
+            text-align: right;
+
+        }
     }
-}
+};
+.header__right .navbar-nav .nav__cart {
+    @include respond(phone){
+        .nav__cart {
+            padding: 0 $pd-1;
+            border: none;
+            text-align: right;
+
+        }
+    }
+};
 .header__left {
-    @include responsive('medium'){
+    @include respond(phone){
         justify-content: center;
         .header__categories, .header__form{
             display: none;
