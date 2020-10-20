@@ -38,3 +38,10 @@
         }
     }
 }
+.companies {
+    @include respond(tab-land){
+        .companies__partners {
+            width: 100%;
+        }
+    }
+}
