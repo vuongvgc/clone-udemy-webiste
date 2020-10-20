@@ -88,8 +88,8 @@
           </nav>
     </header>
     <!-- udemy carousel -->
-    <section class="udemy-carousel">
-        <div class="udemy-carousel__content col-5">
+    <section class="udemy-carousel container-fluid">
+        <div class="udemy-carousel__content col-12 col-md-5">
             <h2>Learn on your schedule</h2>
             <p>Study any topic, anytime. Choose from thousands of expert-led courses now.</p>
             <form class="udemy-carousel__form ">
@@ -769,7 +769,7 @@
     </section>
     <!-- service  -->
     <section class="services">
-        <div class="container">
+        <div class="container-md">
             <div class="row services__box justify-content-around">
                 <!-- item 1 -->
                 <div class="service__item col-4">
@@ -1090,7 +1090,7 @@
     </section>
     <!-- feedback  -->
     <section class="feedback">
-        <div class="container">
+        <div class="container-xl">
             <h2>What our students have to say</h2>
             <div class="feedback__carousel owl-carousel owl-theme">
                 <!-- item 1 -->
@@ -1142,38 +1142,56 @@
     <section class="companies container-fluid">
         <p class="companies__slogan">Trusted by companies of all sizes</p>
         <div class="row companies__partners">
-            <div class="companies__item col-2">
-                <img src="./img/booking.svg" alt="booking">
+            <!-- booking -->
+            <div class="companies__box mb-5 mb-sm-4 col-6 col-sm-4 col-md-2">
+                <div class="companies__item">
+                    <img src="./img/booking.svg" alt="booking">
+                </div>
             </div>
-            <div class="companies__item col-2">
-                <img src="./img/mercedes.svg" alt="Mercedes">
+            <!-- volkswagen -->
+            <div class="companies__box mb-5 mb-sm-4 col-6 col-sm-4 col-md-2">
+                <div class="companies__item">
+                    <img src="./img/volkswagen.svg" alt="volkswagen">
+                </div>
+           </div>
+           <!-- merceder -->
+            <div class="companies__box mb-5 mb-sm-4 col-6 col-sm-4 col-md-2">
+                <div class="companies__item">
+                    <img src="./img/mercedes.svg" alt="Mercedes">
+                </div>
             </div>
-            <div class="companies__item col-1">
-                <img src="./img/volkswagen.svg" alt="volkswagen">
+            <!-- pinterest -->
+            <div class="companies__box mb-5 mb-sm-4 col-6 col-sm-4 col-md-2">
+                <div class="companies__item">
+                    <img src="./img/pinterest.svg" alt="printes">
+                </div>
             </div>
-            <div class="companies__item col-2">
-                <img src="./img/pinterest.svg" alt="printes">
+            <!-- adidas -->
+            <div class="companies__box mb-5 mb-sm-4 col-6 col-sm-4 col-md-2">
+                <div class="companies__item">
+                    <img src="./img/adidas.svg" alt="adidass">
+                </div>
             </div>
-            <div class="companies__item col-2">
-                <img src="./img/adidas.svg" alt="adidass">
-            </div>
-            <div class="companies__item col-2">
-                <img src="./img/eventbrite-logo.svg" alt="eventbrite">
+            <!-- eventbrite -->
+            <div class="companies__box mb-5 mb-sm-4 col-6 col-sm-4 col-md-2">
+                <div class="companies__item">
+                    <img src="./img/eventbrite-logo.svg" alt="eventbrite">
+                </div>
             </div>
         </div>
         <div class="row companies__teacher">
-            <div class="companies__teacher-box col-6">
+            <div class="companies__teacher-box col-12 col-md-6">
                 <div class="companies__text col-8">
                     <h2>Become an instructor</h2>
-                    <p>Top instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach what you love.</p>
-                    <button class="btn udemy-btn-orange">Start Teaching Today</button>
+                    <p >Top instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach what you love.</p>
+                    <button class="mb-5  mt-md-3 btn udemy-btn-orange">Start Teaching Today</button>
                 </div>
             </div>
-            <div class="companies__teacher-box col-6">
+            <div class="companies__teacher-box col-12 col-md-6">
                 <div class="companies__text col-8">
                     <h2>Udemy for Business</h2>
                     <p>Get unlimited access to 4,000+ of Udemy’s top courses for your team.</p>
-                    <button class="btn udemy-btn-orange">Get Udemy For Business</button>
+                    <button class="mb-5 mt-md-3 btn udemy-btn-orange">Get Udemy For Business</button>
                 </div>
             </div>
         </div>    
@@ -1241,11 +1259,11 @@
             </div>
         </div>
         <div class="footer__copyright row">
-            <div class="footer__img col-4">
+            <div class="footer__img  col-6 col-md-4">
                 <img src="./img/logo-coral.svg" alt="Udemy">
                 <span class="copyright">Copyright &copy; 2020 Udemy, Inc.</span>
             </div>
-            <div class="col-4 footer__policy">
+            <div class= "col-6 col-md-4 footer__policy">
                 <ul class="row">
                     <li class="nav-item active__nav">
                       <a class="nav-link" href="#">Terms</a>
@@ -1282,10 +1300,6 @@
                 },
                 600:{
                     items:3,
-                },
-                
-                1000:{
-                    items:3,
                 }
             }
         });
@@ -1320,6 +1334,9 @@
             responsive:{
                 0:{
                     items:1,
+                },
+                600:{
+                    items:2,
                 },
                 992:{
                     items:2,

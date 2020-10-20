@@ -2,6 +2,8 @@
     background-image: url('../../img/cover.jpg');
     height: 40rem;
     position: relative;
+    background-size: cover;
+    background-position: center;
     .udemy-carousel__content {
         position: absolute;
         top: 50%;
@@ -19,6 +21,11 @@
                 font-size: $fs-3;
                 padding: $pd-2 0;
             }
+        }
+    }
+    @include respond(phone){
+        .udemy-carousel__content{
+            left: 50%;
         }
     }
 }

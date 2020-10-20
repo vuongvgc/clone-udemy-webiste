@@ -190,6 +190,18 @@ header .navbar .nav-link {
   color: #fff;
 }
 
+@media only screen and (max-width: 62em) {
+  .header__left .header__form .input-group-text {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 48em) {
+  .header__left .header__form .input-group-text {
+    font-size: .5rem;
+  }
+}
+
 .header__left .navbar-toggler {
   color: #686f7a;
   opacity: 1;
@@ -250,6 +262,8 @@ header .navbar .nav-link {
   background-image: url("../../img/cover.jpg");
   height: 40rem;
   position: relative;
+  background-size: cover;
+  background-position: center;
 }
 
 .udemy-carousel .udemy-carousel__content {
@@ -296,9 +310,27 @@ header .navbar .nav-link {
   color: #fff;
 }
 
+@media only screen and (max-width: 62em) {
+  .udemy-carousel .udemy-carousel__content .udemy-carousel__form .input-group-text {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 48em) {
+  .udemy-carousel .udemy-carousel__content .udemy-carousel__form .input-group-text {
+    font-size: .5rem;
+  }
+}
+
 .udemy-carousel .udemy-carousel__content .udemy-carousel__form input {
   font-size: 2.4rem;
   padding: 2rem 0;
+}
+
+@media only screen and (max-width: 48em) {
+  .udemy-carousel .udemy-carousel__content {
+    left: 50%;
+  }
 }
 
 .intro {
@@ -721,15 +753,11 @@ header .navbar .nav-link {
   align-items: center;
   width: 75%;
   margin: 2.5rem auto;
-  flex-wrap: nowrap;
 }
 
 .companies .companies__partners .companies__item {
-  margin: 0 1rem;
-}
-
-.companies .companies__teacher {
-  flex-wrap: nowrap;
+  padding: 0 1rem;
+  text-align: center;
 }
 
 .companies .companies__teacher .companies__teacher-box .companies__text {

@@ -13,13 +13,12 @@
         align-items: center;
         width: 75%;
         margin: $mg-2 auto;
-        flex-wrap: nowrap;
         .companies__item {
-            margin: 0 $mg-1;
+           padding: 0 1rem;
+           text-align: center;
         }
     }
     .companies__teacher {
-        flex-wrap: nowrap;
         .companies__teacher-box {
             .companies__text {
                 margin: $mg-2 auto;
@@ -42,6 +41,8 @@
     @include respond(tab-land){
         .companies__partners {
             width: 100%;
+            
         }
     }
+    
 }

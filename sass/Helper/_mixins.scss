@@ -41,6 +41,19 @@
             background-color: $color-red-0;
             color: $color-white-0;
         }
+        
+    }
+    @include respond(tab-port){
+        .input-group-text{
+            font-size: 1rem;
+
+        }      
+    }
+    @include respond(phone){
+        .input-group-text{
+            font-size: .5rem;
+
+        }      
     }
 }
 // course item 
