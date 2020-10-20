@@ -336,6 +336,12 @@ header .navbar .nav-link {
   color: #fff;
 }
 
+@media only screen and (max-width: 48em) {
+  .intro {
+    display: none;
+  }
+}
+
 .courses {
   padding: 2.5rem 0;
   margin-bottom: 3.5rem;
@@ -444,6 +450,12 @@ header .navbar .nav-link {
   background-color: #fff;
   color: #29303b;
   padding: 0 1rem 1rem;
+}
+
+@media only screen and (max-width: 48em) {
+  .courses .courses__intro {
+    display: none;
+  }
 }
 
 .services {
@@ -621,10 +633,15 @@ header .navbar .nav-link {
 .categories .categories__content {
   justify-content: space-around;
   align-items: baseline;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   padding-left: 1rem;
   width: 95%;
   margin: 0 auto;
+}
+
+.categories .categories__content .categories__box {
+  border: none;
+  padding: 0 3rem;
 }
 
 .categories .categories__content .categories__item {
@@ -634,10 +651,6 @@ header .navbar .nav-link {
   border: 1px solid #a1a7b3;
   box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
   margin-bottom: 2.5rem;
-}
-
-.categories .categories__content .categories__item:not(:last-child) {
-  margin-right: 3.5rem;
 }
 
 .categories .categories__content .categories__item span {

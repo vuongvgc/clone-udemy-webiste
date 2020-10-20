@@ -22,3 +22,8 @@
         }
     }
 }
+@include respond(phone){
+    .intro {
+        display: none;
+    }
+}

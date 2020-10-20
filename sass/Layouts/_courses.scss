@@ -32,3 +32,10 @@
     }
     
 }
+.courses {
+    @include respond(phone){
+        .courses__intro {
+            display: none;
+        }
+    }
+}
